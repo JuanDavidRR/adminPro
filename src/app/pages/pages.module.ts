@@ -16,6 +16,8 @@ import { PAGES_ROUTING } from './pages.routes';
 import { IncreaserComponent } from '../components/increaser/increaser.component';
 import { GraficoDonaComponent } from '../components/grafico-dona/grafico-dona.component';
 import { AccountSettingsComponent } from './account-settings/account-settings.component';
+import { PromisesComponent } from './promises/promises.component';
+import { RxjsComponent } from './rxjs/rxjs.component';
 
 
 
@@ -27,7 +29,9 @@ import { AccountSettingsComponent } from './account-settings/account-settings.co
         Graficas1Component,
         IncreaserComponent,
         GraficoDonaComponent,
-        AccountSettingsComponent
+        AccountSettingsComponent,
+        PromisesComponent,
+        RxjsComponent
     ],
     exports: [
         DashboardComponent,
